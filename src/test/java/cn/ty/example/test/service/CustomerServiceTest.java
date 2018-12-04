@@ -47,7 +47,7 @@ public class CustomerServiceTest {
     @Test
     public void testGetCustomerList() throws Exception {
     //TODO: Test goes here...
-        List<Customer> list=customerService.getCustomerList("");
+        List<Customer> list=customerService.getCustomerList();
         Assert.assertEquals(2,((List) list).size());
     }
 

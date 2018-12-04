@@ -20,7 +20,7 @@ public class CustomerService {
 
 
 
-    public List<Customer> getCustomerList(String keyword){
+    public List<Customer> getCustomerList(){
             String sql="select * from customer";
             return DatabaseUtil.queryEntityList(Customer.class, sql);
     }
